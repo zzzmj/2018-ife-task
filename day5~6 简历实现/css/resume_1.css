@@ -1,0 +1,49 @@
+dd, h1, h3, dl {
+    margin: 0;
+}
+
+dt {
+    font-weight: bold;
+}
+
+h3 {
+    margin-bottom: 12px;
+}
+
+section {
+    margin-bottom: 20px;
+    white-space:nowrap
+}
+
+.container {
+    position: relative;
+    max-width: 770px;
+    margin: auto;
+}
+
+.resume {
+    padding: 10px;
+    border: 1px solid #dedede;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.basic-info dt, dd,
+.contact-info dt, dd {
+    display: inline-block;
+}
+
+.basic-info dd,
+.contact-info dd {
+    margin: 0px 30px 0px 5px;
+}
+
+.desc .item,
+.education .item {
+    margin-bottom: 12px;
+}
+
+
+

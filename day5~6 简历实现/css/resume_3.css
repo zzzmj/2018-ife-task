@@ -1,0 +1,79 @@
+dd, h1, h3, dl {
+    margin: 0;
+}
+
+dt {
+    font-weight: bold;
+}
+
+
+section {
+    position: relative;
+    border: 1px solid #dedede;
+}
+
+section::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+section h3 {
+    float: left;
+    background: #d6d6d6;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    width: 100px;
+}
+
+section dl {
+    margin-left: 100px;
+    padding-left: 5px;
+    padding-top: 5px;
+    white-space:nowrap
+}
+
+.container {
+    position: relative;
+    max-width: 770px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.resume {
+    border: 1px solid #dedede;
+}
+
+.title {
+    width: 100%;
+    line-height: 1.5;
+    color: #fff;
+    background: #858585;
+    padding: 10px 20px;
+}
+
+.basic-info dt, dd,
+.contact-info dt, dd {
+    display: inline-block;
+    white-space:nowrap
+}
+
+
+.basic-info dd,
+.contact-info dd {
+    margin: 0px 30px 0px 5px;
+}
+
+.desc .item,
+.education .item {
+    margin-bottom: 12px;
+}
+
+.desc dd {
+    display: block;
+}
+
+
+
+
